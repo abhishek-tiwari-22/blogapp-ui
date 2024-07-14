@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #02173E;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.header_logo {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.header_title {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    color: whitesmoke;
+}
