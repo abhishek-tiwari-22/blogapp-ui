@@ -10,7 +10,8 @@ body {
 }
 
 .newPost {
-    background-image: linear-gradient(to right top, #1f54a4, #007dc3, #009ead, #00b86e, #90c617);    ;
+    background-image: linear-gradient(to right top, #1f54a4, #007dc3, #009ead, #00b86e, #90c617);
+    ;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 80%;
@@ -27,7 +28,7 @@ body {
 
 .newPost h2 {
     text-align: center;
-    color: rgb(23, 1, 1);
+    color: whitesmoke;
     margin-bottom: 20px;
 }
 
@@ -40,7 +41,8 @@ body {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
-    color: whitesmoke;}
+    color: whitesmoke;
+}
 
 .newPost_image input {
     display: block;
@@ -55,7 +57,7 @@ body {
     margin-bottom: 20px;
 }
 
-.newPost_field input, 
+.newPost_field input,
 .newPost_field textarea {
     width: 100%;
     padding: 10px;
@@ -63,7 +65,8 @@ body {
     border-radius: 5px;
     box-sizing: border-box;
     font-size: 1em;
-    color: whitesmoke;}
+    color: rgb(33, 1, 1);
+}
 
 .newPost_field textarea {
     resize: vertical;
