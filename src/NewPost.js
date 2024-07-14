@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./NewPost.css";
 
-const BASE_URL = process.env.BACKEND_URL || 'http://localhost:8000';
+const BASE_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8000';
 function NewPost() {
     const [image, setImage] = useState(null);
     const [creator, setCreator] = useState('');

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './Post.css';
 
-const BASE_URL = process.env.BACKEND_URL || 'http://localhost:8000';
+const BASE_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8000';
 function Post({ post }) {
     const [imageURL, setImageURL] = useState('');
 

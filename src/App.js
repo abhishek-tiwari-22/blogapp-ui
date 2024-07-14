@@ -5,7 +5,7 @@ import Post from './Post';
 import NewPost from './NewPost';
 import Header from './Header';
 
-const BASE_URL = process.env.BACKEND_URL || 'http://localhost:8000';
+const BASE_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8000';
 
 function App() {
     const [posts, setPosts] = useState([]);
